@@ -1,0 +1,13 @@
+name: sol
+
+services:
+  database:
+    image: postgres:18.1-alpine3.22
+    container_name: sol-database
+    restart: unless-stopped
+    environment:
+      - POSTGRES_PASSWORD=password
+
+networks:
+  default:
+    name: sol

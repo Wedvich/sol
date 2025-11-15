@@ -1,2 +1,6 @@
+.env
+.env.*
+.turbo
 .yarn
+*.env
 node_modules

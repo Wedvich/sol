@@ -1,11 +1,8 @@
 {
-  "name": "@sol/client",
+  "name": "@sol/shared",
   "type": "module",
   "scripts": {
     "build": "echo 'todo'",
     "dev": "echo 'todo'"
-  },
-  "dependencies": {
-    "@sol/shared": "workspace:*"
   }
 }
