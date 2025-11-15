@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "dev": "node src/index.ts"
+    "dev": "node --watch src/index.ts"
   },
   "dependencies": {
     "@sol/shared": "workspace:*",
