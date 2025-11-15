@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
+    "erasableSyntaxOnly": true,
+    "esModuleInterop": true,
+    "module": "nodenext",
     "outDir": "dist",
+    "rewriteRelativeImportExtensions": true,
     "skipLibCheck": true
   },
   "include": ["src"]

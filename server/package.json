@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "dev": "echo 'todo'"
+    "dev": "node src/index.ts"
   },
   "dependencies": {
     "@sol/shared": "workspace:*",
@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@sol/client": "workspace:*",
+    "@types/node": "<=25",
     "typescript": "^5.9.3"
   }
 }
