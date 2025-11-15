@@ -3,7 +3,8 @@
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
-      "outputLogs": "new-only"
+      "outputLogs": "new-only",
+      "outputs": ["dist"]
     },
     "dev": {
       "dependsOn": ["^build"],

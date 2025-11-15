@@ -2,14 +2,15 @@
   "name": "@sol/server",
   "type": "module",
   "scripts": {
-    "build": "echo 'todo'",
-    "build:docker": "echo 'todo'",
+    "build": "tsc -p tsconfig.json",
     "dev": "echo 'todo'"
   },
   "dependencies": {
-    "@sol/shared": "workspace:*"
+    "@sol/shared": "workspace:*",
+    "express": "^5.1.0"
   },
   "devDependencies": {
-    "@sol/client": "workspace:*"
+    "@sol/client": "workspace:*",
+    "typescript": "^5.9.3"
   }
 }

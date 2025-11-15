@@ -3,4 +3,5 @@
 .turbo
 .yarn
 *.env
+dist
 node_modules
